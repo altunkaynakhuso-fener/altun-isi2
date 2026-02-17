@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Altun Isı | Adana Güneş Enerji Sistemleri ve Doğal Gaz tesisatı</title>
+    <title>Altun Isı | Adana Güneş Enerji Sistemleri ve Doğal Gaz Tesisatı</title>
 
     <meta name="description" content="Adana güneş enerji sistemleri ve doğal gaz tesisatı hizmetleri. 40 yıllık tecrübe, garantili işçilik.">
     <meta name="keywords" content="Adana güneş enerji sistemleri, Adana güneş paneli kurulumu, Adana doğal gaz tesisatı, Adana doğal gaz ustası">
 
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* GALERİ */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+
 </head>
 
 <body>
@@ -53,8 +77,6 @@
                 <h3>Garantili İşçilik</h3>
                 <p>Tüm projelerimiz garantili ve standartlara uygundur.</p>
             </div>
-
-            </div>
         </div>
     </div>
 </section>
@@ -80,7 +102,20 @@
     </div>
 </section>
 
-<!-- YORUMLAR -->
+<!-- GALERİ -->
+<section class="section">
+    <div class="container">
+        <h2>Referans Çalışmalarımız</h2>
+        <p>Adana güneş enerji sistemleri ve doğal gaz tesisatı projelerimizden örnekler</p>
+
+        <div class="gallery">
+            <img src="images/gunes1.jpg" alt="Adana güneş paneli kurulumu">
+            <img src="images/gunes2.jpg" alt="Adana çatı güneş enerji sistemi kurulumu">
+            <img src="images/dogalgaz1.jpg" alt="Adana doğal gaz tesisat montajı">
+            <img src="images/dogalgaz2.jpg" alt="Adana kombi montajı">
+        </div>
+    </div>
+</section>
 
 <footer>
     <p>© 2026 Altun Isı | Adana Güneş Enerji Sistemleri ve Doğal Gaz Tesisatı</p>
@@ -95,6 +130,7 @@
 
 </body>
 </html>
+
 
 
 
